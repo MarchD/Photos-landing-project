@@ -1,0 +1,288 @@
+body {
+    background: white;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    width: 700;
+    text-align: center;
+
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/*header*/
+
+.header__inner {
+    max-height: 90px;
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 80px;
+}
+
+.nav {
+    width: 43%; 
+}
+
+.nav__link {
+    min-width: 70px;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+
+    transition: .2s linear; 
+}
+
+.nav__link:hover {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+/*intro*/
+
+.intro {
+    background-image: url("../assets/img/intro.jpg");
+    background-color: #0a213c;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+   
+}
+
+.intro__inner {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro__title {
+    margin-bottom: 50px;
+}
+
+.intro__btn__inner {
+    background: #0030ff;
+}
+
+.intro__btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    background: #fff;
+    padding: 16px 32px;
+    color: #000;
+
+    transition: .2s;
+}
+
+.intro__btn:hover {
+    transform: translate3d(-5px, -5px, 0);
+}
+
+/* About */
+
+.about {
+    background: #fff;
+    height: 700px;
+}
+
+.about__item {
+    display: flex;
+    flex-direction: row;
+    padding: 144px 0 0;
+}
+
+.about__img__inner {
+    background: #b3278d;
+    position: relative;
+    margin: 0 20px 0 0;
+    height: 396px;
+}
+
+
+.about__img {
+    display: inline-block;
+    height: 316,8px;
+
+    transition: .2s;
+}
+
+.about__img:hover {
+    transform: translate3d(-8px, -8px, 0);
+}
+
+.about__block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+.about__title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.about__text {
+    font-size: 16px;
+    margin-bottom: 64px;
+    
+}
+
+.about__btn {
+    display: inline-block;
+    background: #0030ff;
+    color: #fff;
+    padding: 16px 32px;
+    text-decoration: none;
+    width: fit-content;
+
+    transition: .2s;
+}
+
+.about__btn__inner {
+    position: relative;
+    background: #01197e;
+    width: fit-content;
+}
+
+.about__btn:hover {
+    transform: translate3d(-5px, -5px, 0);
+}
+
+/*portdolio*/
+
+.port {
+    text-align: center;
+}
+
+.port__title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.port__text {
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.port__img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img {
+    margin-bottom: 40px;
+    width: 45%;
+}
+
+/*footer*/
+
+.footer {
+    background: #000415;
+    color: #fff;
+}
+
+.di {
+    width: 700px;
+    margin: 0 auto;
+}
+.footer__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: row;
+}
+
+.footer__logo {
+    color: #31d7ce;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 105px 0 76px;
+}
+
+.logo__style {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.slogan {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.footer__contact {
+    font-size: 14px;
+    margin-top: 90px   ;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 15px;
+    color: #818181;
+    margin-bottom: 30px;
+}
+
+.footer__address {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.footer__phone {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.address {
+    display: block;
+    margin-left: 20px;
+}
+
+.contacts {
+    display: block;
+    margin-left: 20px;
+}
+
+.img__cont {
+    width: 21px;
+    height: 20px;
+}
+
+
+
