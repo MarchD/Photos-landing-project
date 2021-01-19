@@ -1,4 +1,4 @@
-let navtoggle = document.querySelector('.nav-toggle');
+let navtoggle = document.querySelector('.nav__toggle');
 let nav = document.querySelector('.nav');
 
 let toggleMenu = function () {

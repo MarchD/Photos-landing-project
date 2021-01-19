@@ -12,19 +12,19 @@
 <body id="body">
 <header class="header">
   <div class="container">
-    <div class="header-inner">
-      <div class="header-logo">LOGO</div>
+    <div class="header__inner">
+      <div class="header__logo">LOGO</div>
       
       <nav class="nav" id="nav">
-        <a class="nav-link" href="#">Home</a>
-        <a class="nav-link" href="#about" data-scroll="#about">About us</a>
-        <a class="nav-link" href="#">Services</a>
-        <a class="nav-link" href="#">Team</a>
-        <a class="nav-link" href="#footer">Contact us</a>
+        <a class="nav__link" href="#">Home</a>
+        <a class="nav__link" href="#about" data-scroll="#about">About us</a>
+        <a class="nav__link" href="#">Services</a>
+        <a class="nav__link" href="#">Team</a>
+        <a class="nav__link" href="#footer">Contact us</a>
       </nav>
       
-      <button class="nav-toggle" type="button" id="nav-toggle">
-        <span class="nav-toggle-item " id="nav-toggle-item">Menu</span>
+      <button class="nav__toggle" type="button" id="nav-toggle">
+        <span class="nav__toggle-item " id="nav-toggle-item">Menu</span>
       </button>
     </div>
   </div>
@@ -32,11 +32,11 @@
 
 <section class="intro">
   <div class="container">
-    <div class="intro-inner">
-      <h1 class="intro-title">Photography Web templates</h1>
+    <div class="intro__inner">
+      <h1 class="intro__title">Photography Web templates</h1>
       
-      <div class="intro-btn-inner">
-        <a class="intro-btn" href="#">Read more</a>
+      <div class="intro__btn-inner">
+        <a class="intro__btn" href="#">Read more</a>
       </div>
     </div>
   </div>
@@ -44,22 +44,30 @@
 
 <section class="about">
   <div class="container">
-    <div class="about-item" id="about">
-      <div class="about-img-inner">
-        <div class="img-back"></div>
-        <img src="assets/img/about.jpg" alt="photo" class="about-img">
+    <div class="about__item" id="about">
+      <div class="about__img-inner">
+        <div class="img__back"></div>
+        <img src="assets/img/about.jpg" alt="photo" class="about__img">
       </div>
-      <div class="about-block">
-        <div class="about-title">About Us</div>
-        <div class="about-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-          Aenean sollicitudin, lorem quis bibendum auctor, nisi elit <br><br>consequat ipsum, nec sagittis sem nibh id
-          elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec
-          tellus a odio tincidunt auctor a ornare odio
+      <div class="about__block">
+        <div class="about__title">About Us</div>
+        <div class="about__text">
+          <p>
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+            auctor, nisi elit
+          </p>
+          <p>
+            consequat ipsum, nec sagittis sem nibh id
+            elit. Duis sed odio sit amet nibh vulputate cursus a sit amet
+            mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
+            auctor a ornare odio
+          </p>
         </div>
-        <div class="about-btn-inner">
-          <div class="about-inner-inner">
-            <div class="btn-back"></div>
-            <a href="#" class="about-btn">Read more</a>
+        <div class="about__btn-inner">
+          <div class="about__inner-inner">
+            <div class="btn__back"></div>
+            <a href="#" class="about__btn">Read more</a>
           </div>
         </div>
       </div>
@@ -70,17 +78,24 @@
 <section class="portfolio">
   <div class="container">
     <div class="port">
-      <div class="port-title">Portfolio</div>
-      <div class="port-text">I, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet
-        mauris. Morbi<br> accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
+      <div class="port__title">Portfolio</div>
+      <div class="port__text">
+        <p>
+          I, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
+        cursus a sit amet mauris. Morbi
+        </p>
+        <p>
+          accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare
+          odio.
+        </p>
       </div>
-      <div class="port-img">
-        <div class="port-column">
+      <div class="port__img">
+        <div class="port__column">
           <img src="assets/img/1.jpg" alt="1" class="img">
           <img src="assets/img/2.jpg" alt="2" class="img">
         </div>
         
-        <div class="port-column">
+        <div class="port__column">
           <img src="assets/img/3.jpg" alt="3" class="img">
           <img src="assets/img/4.jpg" alt="4" class="img">
         </div>
@@ -91,25 +106,32 @@
 
 <footer class="footer" id="footer">
   <div class="container">
-    <div class="di">
-      <div class="footer-container">
-        <div class="footer-info">
-          <div class="footer-logo"><span class="logo-style">LOGO</span>
+      <div class="footer__container">
+        <div class="footer__info">
+          <div class="footer__logo"><span class="logo-style">LOGO</span>
             <p class="slogan">One Page PSD Template</p>
           </div>
-          <div class="footer-contact">
-            <div class="footer-address">
+          <div class="footer__contact">
+            <div class="footer__address">
               <img src="assets/img/home.png">
-              <div class="address">13/2 Elizabeth Street Melbourne<br>VIC 3000, Australia</div>
+              <div class="address">
+                <p>13/2 Elizabeth Street Melbourne</p>
+                <p>VIC 3000, Australia</p>
+              </div>
             </div>
-            <div class="footer-phone">
-              <img class="img-cont" src="assets/img/phone.png">
-              <div class="contacts">+(00)1247 457893<br>mail.example@legngth.com</div>
+            <div class="footer__phone">
+              <img class="img__phone" src="assets/img/phone.png">
+              <div class="contacts">
+                <p>+(00)1247 457893</p>
+                <p>mail.example@legngth.com</p>
+              </div>
             </div>
           </div>
         </div>
-        <p class="copyright">Copyright © 2019 All Rights Reserved. Designed By Sabbir sddsdhosseinHossein</p>
-      </div>
+        <p class="copyright">
+          Copyright © 2019 All Rights Reserved. Designed By Sabbir sddsdhossein
+          Hossein
+        </p>
     </div>
   </div>
 </footer>
