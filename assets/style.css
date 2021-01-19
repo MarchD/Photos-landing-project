@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: white;
     font-family: 'PT Sans', sans-serif;
@@ -53,18 +57,17 @@ h1 {
 .nav-link {
     min-width: 76px;
     font-size: 15px;
+    font-weight: 700;
     display: inline-block;
     position: relative;
     text-decoration: none;
     color: #000;
     text-align: center;
-
-    transition: .2s linear; 
+    transition: color .3s linear;
 }
 
 .nav-link:hover {
-    font-weight: 700;
-    font-size: 17px;
+    color: #b3278d;
 }
 
 .nav-toggle {
@@ -115,7 +118,7 @@ h1 {
     height: 100vh;
     background-size: cover;
     position: relative;
-   
+
 }
 
 .intro-inner {
@@ -144,7 +147,7 @@ h1 {
     padding: 16px 32px;
     color: #000;
 
-    transition: .2s;
+    transition: transform .3s linear;
 }
 
 .intro-btn:hover {
@@ -160,7 +163,7 @@ h1 {
 
 .about-item {
     display: flex;
-    
+
     flex-direction: row;
     padding: 144px 0 0;
 }
@@ -182,8 +185,8 @@ h1 {
 .about-img {
     display: inline-block;
     position: relative;
-    transition: .2s;
-    
+    transition: transform .3s linear;
+
     z-index: 2;
 }
 
@@ -206,12 +209,12 @@ h1 {
 .about-text {
     font-size: 16px;
     margin-bottom: 64px;
-    
+
 }
 
 .about-btn-inner {
     height: 52px;
-    
+
 }
 
 .about-inner-inner {
@@ -236,14 +239,14 @@ h1 {
     width: fit-content;
     position: relative;
     z-index: 2;
-    transition: .2s;
+    transition: transform .3s linear;
 }
 
 .about-btn:hover {
     transform: translate3d(-5px, -5px, 0);
 }
 
-/*portdolio*/
+/*portfolio*/
 
 .port {
     text-align: center;
@@ -399,7 +402,7 @@ h1 {
         margin-bottom: 40px;
     }
 
-    /* Footer */ 
+    /* Footer */
     .footer-logo {
         margin-top: 50px;
         margin-bottom: 30px;
@@ -433,27 +436,23 @@ h1 {
          top: 100%;
          background-color: #fff;
     }
-     
+
      .nav-toggle {
          display: block;
      }
 
-     
-
      .nav-link {
          width: 100%;
-         border-bottom: 3px solid transparent;
+         border-bottom: 5px solid transparent;
          padding: 7px 0;
-         
+
      }
 
      .nav-link:hover {
-        border-bottom: 5px solid #b3278d;
-
-
+        border-bottom-color: #b3278d;
      }
 
-     /* Intro */ 
+     /* Intro */
      .intro {
          height: 70vh;
      }
@@ -493,7 +492,7 @@ h1 {
     .footer-info {
         margin: 0 40px;
     }
-} 
+}
 
 @media (max-width: 540px) {
     .intro-title {
