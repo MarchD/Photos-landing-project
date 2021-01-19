@@ -160,12 +160,12 @@ h1 {
 
 .about__item {
     display: flex;
-    flex-direction: row;
     padding: 144px 0 0;
 }
 
 .about__img-inner {
     position: relative;
+    align-self: center;
     margin: 0 20px 0 0;
     max-height: 396px;
 }
@@ -425,7 +425,7 @@ h1 {
          display: none;
      }
 
-     .nav__open {
+     .nav-open {
          position: absolute;
          display: block;
          width: 100%;
@@ -466,11 +466,19 @@ h1 {
          margin-right: 20px;
      }
 
+     .about__item {
+         flex-direction: column;
+     }
+
      .about__img-inner {
         margin: 0;
         width: 300px;
         height: auto;
     }
+
+     .img__back {
+         height: 194px;
+     }
 
     .about__img {
         width: 300px;
